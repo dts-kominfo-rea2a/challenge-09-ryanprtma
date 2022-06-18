@@ -3,7 +3,6 @@
 import React from 'react';
 
 const Contact = ({ props }) => {
-    console.log(props.photo)
     return (
         <>
             <img src={props.photo} alt="cat" />
