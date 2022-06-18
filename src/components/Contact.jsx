@@ -3,14 +3,13 @@
 import React from 'react';
 
 const Contact = ({ props }) => {
+    console.log(props.photo)
     return (
         <>
-            <div className="contact-card">
-                <img src={props.photo} alt="cat" />
-                <p>{props.name}</p>
-                <>{props.phone}</>
-                <>{props.email}</>
-            </div>
+            <img src={props.photo} alt="cat" />
+            <p>{props.name}</p>
+            <>{props.phone}</>
+            <>{props.email}</>
         </>
     )
 }
