@@ -1,4 +1,10 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+}
+
+.header-card {
+  display: flex;
+  flex-direction: column;
 }
