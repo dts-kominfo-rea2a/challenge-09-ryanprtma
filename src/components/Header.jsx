@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div className="header-card">
             <h1>Call a Friend</h1>
-            <>your friendly contact app</>
-            <>*********************************************</>
+            <div>your friendly contact app</div><br />
+            <div>*********************************************</div>
         </div>
     )
 }

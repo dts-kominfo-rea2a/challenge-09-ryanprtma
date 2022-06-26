@@ -4,12 +4,15 @@ import React from 'react';
 
 const Contact = ({ data }) => {
     return (
-        <>
+        <div className='contact-card'>
             <img src={data.photo} alt="cat" />
-            <p>{data.name}</p>
-            <>{data.phone}</>
-            <>{data.email}</>
-        </>
+            <div>
+                <p><b>{data.name}</b></p>
+                <p>{data.phone}</p>
+                <p>{data.email}</p>
+            </div>
+           
+        </div>
     )
 }
 
